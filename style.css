@@ -62,10 +62,6 @@ html {
   justify-content: space-between;
 }
 
-.section-heading {
-  margin-top: 0;
-}
-
 .cards-container {
   display: flex;
   justify-content: space-evenly;
@@ -100,7 +96,7 @@ html {
   left: -1rem;
   transform: skewY(45deg);
   transform-origin: right;
-  box-shadow: -0.1rem -0.1rem 1rem #000;
+  box-shadow: -0.1rem -0.1rem 0.1rem #000;
 }
 
 .card::after {
@@ -113,7 +109,7 @@ html {
   left: 0;
   transform: skewX(45deg);
   transform-origin: bottom;
-  box-shadow: -0.1rem -0.1rem 1rem #000;
+  box-shadow: -0.1rem -0.1rem 0.1rem #000;
 }
 
 .card-img {
